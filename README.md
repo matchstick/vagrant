@@ -1,15 +1,6 @@
 # vagrantwindows
 vagrant setup for windows VM work.
 
-# Helpful windows info
-
-Configure Vagrantfile for Windows VM with RDP forwarded:
-
-`config.vm.guest = :windows`
-`config.vm.communicator = "winrm"`
-`config.vm.network "forwarded_port", guest: 3389, host: 3389 `
-Enable Remote Desktop. In the VM:
-
 ## Install an RDP client
 
 On Mac this would be [Microsoft Remote Desktop
