@@ -1,5 +1,5 @@
-# vagrantwindows
-vagrant setup for windows VM work.
+# vagrant
+vagrant repo for setup files 
 
 ## Install an RDP client
 
